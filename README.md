@@ -2,6 +2,11 @@
 
 This project was created to understand the behavior of netty's included SO and to determine if its realistic to consider it a potential threat vector.
 
+
+MD5 https://repo1.maven.org/maven2/io/netty/netty-all/4.1.65.Final/netty-all-4.1.65.Final.jar.md5
+
+`6b1836a9748a74a68fb48e9151006c2f`
+
 ## building
 `gradle build`
 
