@@ -7,6 +7,21 @@ MD5 https://repo1.maven.org/maven2/io/netty/netty-all/4.1.65.Final/netty-all-4.1
 
 `6b1836a9748a74a68fb48e9151006c2f`
 
+
+## Binary contents of netty-all-4.1.65.Final.jar
+
+```
+r631946@TRG529595 netty-all-4.1.65.Final % find . -name "*.so"
+./META-INF/native/libnetty_transport_native_epoll_x86_64.so
+./META-INF/native/libnetty_transport_native_epoll_aarch_64.so
+```
+
+## MD5 hashes for these files
+```
+MD5 (./META-INF/native/libnetty_transport_native_epoll_x86_64.so) = 58ef1e4ec1651598016d43a735c7feaa
+MD5 (./META-INF/native/libnetty_transport_native_epoll_aarch_64.so) = ae34785c2d64ad58a40ae7958336b524
+```
+
 ## building
 `gradle build`
 
