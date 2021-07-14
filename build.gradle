@@ -16,11 +16,11 @@ dependencies {
 
 application {
     // Define the main class for the application
-    mainClassName = 'com.okta.netty.AppServer'
+    mainClassName = 'com.claytantor.netty.AppServer'
 }
 
 jar {
     manifest {
-        attributes 'Main-Class': 'com.okta.netty.AppServer'
+        attributes 'Main-Class': 'com.claytantor.netty.AppServer'
     }
 }

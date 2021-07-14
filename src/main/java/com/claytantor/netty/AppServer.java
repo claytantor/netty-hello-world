@@ -1,4 +1,4 @@
-package com.okta.netty;
+package com.claytantor.netty;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
@@ -12,6 +12,7 @@ public class AppServer {
     private static final int HTTP_PORT = 8088;
 
     public void run() throws Exception {
+        System.out.println("running netty server on port:"+HTTP_PORT);
 
         EventLoopGroup bossGroup = new NioEventLoopGroup();
         EventLoopGroup workerGroup = new NioEventLoopGroup();

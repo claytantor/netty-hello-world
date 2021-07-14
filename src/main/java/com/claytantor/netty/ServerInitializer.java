@@ -1,4 +1,4 @@
-package com.okta.netty;
+package com.claytantor.netty;
 
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelInitializer;
